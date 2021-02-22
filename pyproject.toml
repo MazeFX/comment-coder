@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "comment-coder"
+version = "0.1.0"
+description = "Extractor and Manager for code line TODOS."
+authors = ["nickgeense <filoplast@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+keywords = ["poetry", "todo", "TODO", "qt", "cleo", "cli"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Environment :: Console",
+    "License :: Solufo License",
+    "Operating System :: Unix",
+    "Operating System :: POSIX",
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    "Topic :: Software Development",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+# asyncio support library
+uvloop = "^0.14.0"
+
+# File support
+PyYAML = "^5.3.1"
+
+# Tools
+ujson = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+pytest-mock = "^3.5.1"
+pytest-asyncio = "^0.14.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools", "wheel"]
+build-backend = "poetry.core.masonry.api"
