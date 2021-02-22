@@ -9,8 +9,8 @@ Comment Coder
 .. |made-with-sphinx-doc| image:: https://img.shields.io/badge/Made%20with-Sphinx-1f425f.svg
    :target: https://www.sphinx-doc.org/
 
-.. |test_status| image:: https://github.com/MazeFX/comment-coder/workflows/Tests/badge.svg?branch=master&event=push
-   :target:
+.. |test_status| image:: https://github.com/MazeFX/comment-coder/actions/workflows/tests.yml/badge.svg?branch=active_dev&event=push
+   :target: https://github.com/MazeFX/comment-coder/actions/workflows/tests.yml
 
 An extractor and manager for the TODO comment lines that are used in lines of code. In an attempt
 to sort out TODO's in my own projects I created this tool which could be handy for others too.
