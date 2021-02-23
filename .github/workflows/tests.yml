@@ -86,7 +86,7 @@ jobs:
           SUMMARY="$(pytest tests --cov=comment_coder)"
           COVERAGEVALUE="$(echo $SUMMARY | sed -n 's/.*\(TOTAL\).[0-9].[0-9].\([0-9]*\)%.*/\2/p')"
           echo "coverage_value: $COVERAGEVALUE"
-          echo "COVERAGE=$(echo $COVERAGEVALUE)" >> $GITHUB_ENV
+          echo "COVERAGE=$(echo ${COVERAGEVALUE})" >> $GITHUB_ENV
 
           ENVCOVERAGE=${{ env.COVERAGE }}
           echo "coverage: $ENVCOVERAGE"
