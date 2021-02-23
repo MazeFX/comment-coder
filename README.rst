@@ -1,7 +1,7 @@
 =============
 Comment Coder
 =============
-|made-with-python| |made-with-sphinx-doc| |test_status|
+|made-with-python| |made-with-sphinx-doc| |test_status| |coverage_badge|
 
 .. |made-with-python| image:: http://ForTheBadge.com/images/badges/made-with-python.svg
    :target: https://www.python.org/
