@@ -13,7 +13,7 @@ Comment Coder
    :target: https://github.com/MazeFX/comment-coder/actions/workflows/tests.yml
 
 .. |coverage_badge| image:: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/MazeFX/f6472a1fdbc684e918544851f9efc77a/raw/comment-coder__heads_active_dev.json
-   :target:
+   :target: https://github.com/MazeFX/comment-coder/actions/workflows/tests.yml
 
 An extractor and manager for the TODO comment lines that are used in lines of code. In an attempt
 to sort out TODO's in my own projects I created this tool which could be handy for others too.
