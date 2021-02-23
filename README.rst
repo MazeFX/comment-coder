@@ -12,7 +12,7 @@ Comment Coder
 .. |test_status| image:: https://github.com/MazeFX/comment-coder/actions/workflows/tests.yml/badge.svg?branch=active_dev&event=push
    :target: https://github.com/MazeFX/comment-coder/actions/workflows/tests.yml
 
-.. |coverage_badge| image:: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/MazeFX/f6472a1fdbc684e918544851f9efc77a/raw/35edeee15881b517b65c2aa03f06f553239364ee/comment-coder__heads_active_dev.json
+.. |coverage_badge| image:: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/MazeFX/f6472a1fdbc684e918544851f9efc77a/raw/comment-coder__heads_active_dev.json
    :target:
 
 An extractor and manager for the TODO comment lines that are used in lines of code. In an attempt
