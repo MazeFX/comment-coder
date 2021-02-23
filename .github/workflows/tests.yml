@@ -84,6 +84,7 @@ jobs:
           echo "COVERAGE=$(echo $COVERAGEVALUE)" >> $GITHUB_ENV
 
           echo "${{ env.COVERAGE }}"
+          echo "coverage: $COVERAGEVALUE"
 
           REF=${{ github.ref }}
           echo "github.ref: $REF"
